@@ -1,2 +1,3 @@
 # ICPC
-solutions to usaco and codeforces
+i'm ass at C++. this is my attempt to get good
+solutions to usaco, codeforces, and cses
