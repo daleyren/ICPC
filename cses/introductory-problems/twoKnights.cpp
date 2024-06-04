@@ -2,9 +2,14 @@
 using namespace std;
 
 int main() {
-  int n;
+  long long n;
   cin >> n;
 
-  // Brute force
-  
+  long long totalCombinations;
+  long long invalidCombinations;
+  for(long long i = 1; i <= n; i++) {
+    totalCombinations = ((i * i) * ((i * i) - 1)) / 2;
+    invalidCombinations = 4 * (i - 1) * (i - 2);
+    cout << totalCombinations - invalidCombinations << endl;
+  }
 }
